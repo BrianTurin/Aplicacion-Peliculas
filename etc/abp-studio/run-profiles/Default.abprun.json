@@ -1,0 +1,10 @@
+﻿{
+  "applications": {
+    "BBBBFLIX.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44316",
+      "path": "../../../src/BBBBFLIX.HttpApi.Host/BBBBFLIX.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$"  
+    }
+  }
+}

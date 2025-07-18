@@ -1,0 +1,85 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.2.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "BBBBFLIX.Application": {
+      "path": "src/BBBBFLIX.Application/BBBBFLIX.Application.abppkg",
+      "folder": "src"
+    },
+    "BBBBFLIX.Application.Tests": {
+      "path": "test/BBBBFLIX.Application.Tests/BBBBFLIX.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "BBBBFLIX.Domain.Shared": {
+      "path": "src/BBBBFLIX.Domain.Shared/BBBBFLIX.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "BBBBFLIX.Application.Contracts": {
+      "path": "src/BBBBFLIX.Application.Contracts/BBBBFLIX.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "BBBBFLIX.HttpApi": {
+      "path": "src/BBBBFLIX.HttpApi/BBBBFLIX.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "BBBBFLIX.HttpApi.Client": {
+      "path": "src/BBBBFLIX.HttpApi.Client/BBBBFLIX.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "BBBBFLIX.EntityFrameworkCore.Tests": {
+      "path": "test/BBBBFLIX.EntityFrameworkCore.Tests/BBBBFLIX.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "BBBBFLIX.EntityFrameworkCore": {
+      "path": "src/BBBBFLIX.EntityFrameworkCore/BBBBFLIX.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "BBBBFLIX.TestBase": {
+      "path": "test/BBBBFLIX.TestBase/BBBBFLIX.TestBase.abppkg",
+      "folder": "test"
+    },
+    "BBBBFLIX.Domain.Tests": {
+      "path": "test/BBBBFLIX.Domain.Tests/BBBBFLIX.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "BBBBFLIX.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/BBBBFLIX.HttpApi.Client.ConsoleTestApp/BBBBFLIX.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "BBBBFLIX.DbMigrator": {
+      "path": "src/BBBBFLIX.DbMigrator/BBBBFLIX.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "BBBBFLIX.HttpApi.Host": {
+      "path": "src/BBBBFLIX.HttpApi.Host/BBBBFLIX.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "BBBBFLIX.Domain": {
+      "path": "src/BBBBFLIX.Domain/BBBBFLIX.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

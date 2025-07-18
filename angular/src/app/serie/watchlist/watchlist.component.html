@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watchlist</title>
+    <link rel="stylesheet" href="watchlist.component.scss">
+</head>
+<body>
+    <header>
+        <h1>Lista de Series Guardadas</h1>
+    </header>
+
+    <main>
+        <section class="watchlist">
+            <div class="series-container" *ngIf="savedSeries.length"></div>
+                <div *ngFor="let serie of savedSeries" class="watchlist-item">
+                    <h2>{{ serie.title }}</h2>
+                    <p><strong>Año:</strong> {{ serie.year }}</p>
+                    <p><strong>Género:</strong> {{ serie.genre }}</p>
+                    <p><strong>Estado:</strong> {{ serie.status }}</p>
+                    <button (click)="removeFromWatchlist(serie)">Eliminar</button>
+                </div>
+            <div *ngIf="!savedSeries.length">
+                <p>No hay series guardadas</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

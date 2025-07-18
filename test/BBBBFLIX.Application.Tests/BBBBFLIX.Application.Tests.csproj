@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>BBBBFLIX</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\BBBBFLIX.Application\BBBBFLIX.Application.csproj" />
+    <ProjectReference Include="..\..\src\BBBBFLIX.EntityFrameworkCore\BBBBFLIX.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\BBBBFLIX.Domain.Tests\BBBBFLIX.Domain.Tests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
+		<PackageReference Include="Moq" Version="4.20.72" />
+  </ItemGroup>
+
+</Project>
